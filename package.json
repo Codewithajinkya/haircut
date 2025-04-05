@@ -1,0 +1,27 @@
+{
+    "name": "hipstyle-master",
+    "version": "1.0.0",
+    "description": "A stylish and responsive static HTML/CSS website template.",
+    "author": "Ajinkya Jadhav",
+    "license": "MIT",
+    "keywords": [
+      "html",
+      "css",
+      "template",
+      "static-site",
+      "responsive",
+      "portfolio",
+      "hipstyle"
+    ],
+    "scripts": {
+      "start": "live-server --port=3000 --open=index.html",
+      "dev": "npm run start",
+      "debug": "echo 'Debugging tools not configured yet. You can add custom tools here.'",
+      "format": "prettier --write '**/*.{html,css,js}'"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.2",
+      "prettier": "^3.2.4"
+    }
+  }
+  
